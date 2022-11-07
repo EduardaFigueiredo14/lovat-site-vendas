@@ -25,10 +25,13 @@
             <a class="nav-link" href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true"></i>Inicío <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="comprar.html" ><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>Comprar</a>
+            <a class="nav-link font-weight-bold text-white" href="comprar.html" ><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>Comprar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="serviços.html"><i class="fa fa-question-circle fa-2x" aria-hidden="true"></i>Serviços</a>
+            <a class="nav-link font-weight-bold text-white" href="serviços.html"><i class="fa fa-question-circle fa-2x" aria-hidden="true"></i>Serviços</a>
+  </button>
+ 
+</div></i></a>
       </div>
     </nav>
     <!-- criamos o nosso menu do site -->
@@ -78,14 +81,18 @@
         <div class="card-body">
           <h5 class="card-title">Volkswagen Golf GTI</h5>
           <p class="card-text">160.000,00</p>
-          <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a></a>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+</button>
         </div>
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="corolla.jpg" alt="Imagem de capa do card">
           <div class="card-body">
             <h5 class="card-title">Toyota Corolla XEi</h5>
             <p class="card-text">R$ 110.990,00</p>
-            <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a></a>
+             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+</button>
           </div>
         </div>
 
@@ -97,14 +104,18 @@
       <div class="card-body">
         <h5 class="card-title">Jeep Compass</h5>
         <p class="card-text"> R$ 349.990,00</p>
-        <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a></a>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+</button>
       </div>
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="santafe.jpg" alt="Imagem de capa do card">
         <div class="card-body">
           <h5 class="card-title">Hyundai Santa Fé</h5>
           <p class="card-text">R$ 300.000,00</p>
-          <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a></a>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+</button>
         </div>
       </div>
     </div>
@@ -115,7 +126,9 @@
     <div class="card-body">
       <h5 class="card-title">Civic Touring</h5>
       <p class="card-text">R$ 157.400,00</p>
-      <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a></a>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+</button>
     </div>
   </div>
   <div class="card" style="width: 18rem;">
@@ -123,7 +136,9 @@
     <div class="card-body">
       <h5 class="card-title">Chevrolet Astra</h5>
       <p class="card-text">R$ 37.000,00</p>
-      <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a></a>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+</button>
     </div>
   </div>
   <br>
@@ -197,6 +212,65 @@
         <footer>
           <div class="p-3 mb-2 bg-dark text-white text-center">Desenvolvido pela Eduarda<div>
           </footer>
+          <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nome</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Sobrenome</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Endereço</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">CPF</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Pagamento</label>
+      <select id="inputState" class="form-control">
+        <option selected>A vista</option>
+        <option>Financiamento</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Telefone</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Não sou robô
+      </label>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         </body>
 
         <!-- Iniciando arquivos js -->
