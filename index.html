@@ -34,22 +34,56 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Seja bem-vindo!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nome</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Sobrenome</label>
+      <input type="password" class="form-control" id="inputPassword4">
     </div>
   </div>
-</div>
-
+  <div class="form-group">
+    <label for="inputAddress">Endereço</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">CPF</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Pagamento</label>
+      <select id="inputState" class="form-control">
+        <option selected>A vista</option>
+        <option>Financiamento</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Telefone</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Não sou robô
+      </label>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Confirmar</button>
+      </div>
   </button>
  
 </div></i></a>
@@ -93,7 +127,7 @@
     <!-- colocamos o nosso conteúdo do site -->
     <div class="container">
      <h1>Seja Bem-Vindo</h1>
-     <p>Melhores carros</p>
+    <p class="text-uppercase">Melhores carros!</p>
      
      <div class="row">
       <div class="col-sm">
@@ -164,32 +198,17 @@
   </div>
   <br>
    </div>
-  <!-- carousel com 3 imagem -->
-        <div class="row no-gutters bg-dark text-white position-relative">
-          <div class="col-md-6 mb-md-0 p-md-4">
-            
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="civic.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="civic.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="civic.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-6 position-static p-4 pl-md-0">
-            <h5 class="mt-0 text-danger">Civic Touring</h5>
-            <p>Ao contrário de modelos como Chevrolet Cruze e Volkswagen Jetta, que dispõem de motores turbo desde a versão de entrada, no Civic 2021 o propulsor turbo é uma exclusividade do topo de linha,No caso, o Honda Civic Touring 2021 traz, além do motor turbo, a maior oferta de equipamentos da gama do sedã médio japonês.Disponível desde a estreia da décima geração do Civic no mercado nacional, o Honda Civic Touring hoje não sai por menos de R$ 157,4 mil e é um dos sedãs médios nacionais mais caros disponíveis por aqui, A versão topo de linha do Honda foi anunciada em julho de 2016,o espaço do carro também agrada. Ele mede 4,64 metros de comprimento, 1,8 m de largura e 1,43 m de altura, com distância entre-eixos de 2,7 m. O porta-malas é um dos maiores, com capacidade para 519 litros de bagagens.</p>
-            <a href="#" type="button" class="btn btn-outline-danger stretched-link">Veja Mais</a>
-          </div>
-        </div>
-        <!-- FIM DO CAROUSEL -->
+   <div class="container">
+    <p class="text-uppercase">Melhores motos!</p>
 
+    <div class="card" style="width: 18rem;">
+  <img src="BMW-G310R.jpg"class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BMW G 310 R</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
 
 </div>
 </div>
@@ -244,55 +263,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Nome</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Sobrenome</label>
-      <input type="password" class="form-control" id="inputPassword4">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">Endereço</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">CPF</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">Pagamento</label>
-      <select id="inputState" class="form-control">
-        <option selected>A vista</option>
-        <option>Financiamento</option>
-      </select>
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Telefone</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Não sou robô
-      </label>
-    </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-primary">Confirmar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-        </body>
+       </body>
 
         <!-- Iniciando arquivos js -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
